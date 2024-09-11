@@ -1,0 +1,20 @@
+
+REACT + VITE
+(CRIAR/ INICIARLIZAR UM PROJETO)
+
+bash
+Copiar código
+# Navegar até o diretório onde deseja criar o projeto
+cd "C:\Users\letic\Desktop\CINEL\React\Full stack open\Parte 1\unicafe"
+
+# Criar um novo projeto Vite com React
+npx create-vite@latest part11-vite --template react
+
+# Entrar no diretório do projeto Vite
+cd part11-vite
+
+# Instalar as dependências
+npm install
+
+# Iniciar o servidor de desenvolvimento
+npm run dev
