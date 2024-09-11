@@ -1,0 +1,33 @@
+PARTE 0
+
+01 - HTML https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics
+02 - CSS https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics
+EXTRA -JAVASCRIPT https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/JavaScript_basics
+03 - FORM Your_first_form
+
+REACT https://react.dev/learn/start-a-new-react-project
+
+
+
+
+ Descrição 
+
+0.4. Aplicação Web Tradicional: Adicionando uma Nova Nota
+    - O utilizador escreve uma nota e clica em "Salvar".
+    - O navegador envia os dados da nota para o servidor.
+    - O servidor armazena os dados e responde com um redirecionamento HTTP 302 para a página de notas.
+    - O navegador segue o redirecionamento, recarrega a página das notas e solicita os arquivos necessários (HTML, CSS, JavaScript).
+    - O navegador executa o JavaScript, que busca e processa os dados das notas em formato JSON.
+
+0.5. Aplicação de Página Única (SPA): Carregando a Página Inicial
+    - O utilizador navega para a página principal do SPA.
+    - O navegador solicita e carrega o documento HTML do SPA (shell).
+    - O navegador também solicita e carrega os arquivos CSS e JavaScript.
+    - O navegador executa o JavaScript do SPA e solicita os dados das notas em formato JSON.
+    - O navegador executa a função de retorno de chamada que renderiza as notas no SPA.
+
+0.6. Aplicação de Página Única (SPA): Adicionando uma Nova Nota
+    - O utilizador escreve uma nota e clica em "Salvar".
+    - O navegador capta a entrada e envia os dados da nota para o servidor.
+    - O servidor armazena os dados e responde com o conteúdo da nova nota em formato JSON.
+    - O navegador atualiza a lista de notas dinamicamente, sem recarregar a página, e renderiza a nova nota na lista.
